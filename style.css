@@ -26,6 +26,9 @@ p{
   transform: translateY(2px);
 }
 
+h1.subtitle{
+  font-size: 1rem important!;
+}
 /* Navigation */
 
 .navbar {
@@ -55,8 +58,8 @@ p{
 
 .home-inner {
   background-image: url(img/earthday-image.jpg);
-  background-color:rgba(255,255,255,0.5);
-  background-blend-mode:screen;
+  background-color:rgba(0,0,0,0.5);
+  background-blend-mode:multiply;
 }
 
 .title {
@@ -68,7 +71,7 @@ p{
   height: 15rem;
   max-width: 100%;
   position: absolute;
-  top: 10%;
+  top: 50%;
   z-index:1;
   color: white;
 }
@@ -80,6 +83,15 @@ p{
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 0rem;
 }
+
+.caption h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 0rem;
+}
+
 .caption p {
   font-size: 1rem;
   color: white;
