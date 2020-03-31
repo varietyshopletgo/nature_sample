@@ -71,11 +71,31 @@ h1.subtitle{
   height: 15rem;
   max-width: 100%;
   position: absolute;
-  top: 50%;
+  top: 40%;
   z-index:1;
   color: white;
 }
 
+.btn-circle-stitch {
+  display: inline-block;
+  text-decoration: none;
+  background: #F39700;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 5px #F39700;
+  border: dashed 1px #FFF;
+  transition: .4s;
+}
+
+.btn-circle-stitch:hover {
+  background: #FDD133;
+  box-shadow: 0px 0px 0px 5px #FDD133;
+}
 .caption h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -310,15 +330,13 @@ hr.socket {
   .image{
     width: 90%;
   }
-  .caption {
-  }
 }
 
 
 
 @media (max-width: 479px) {
     .caption {
-      top:50%;
+      top:40%;
       z-index:1;
       color: white;
       text-transform: uppercase;
@@ -330,11 +348,6 @@ hr.socket {
     .headingw {
       font-size: 1.2rem;
     }
-
-    .caption {
-      top:60% important!;
-    }
-
     .pict {
       width: 100%;
     }
