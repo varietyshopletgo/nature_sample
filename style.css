@@ -318,7 +318,7 @@ hr.socket {
 
 @media (max-width: 479px) {
     .caption {
-      top:30%;
+      top:50%;
       z-index:1;
       color: white;
       text-transform: uppercase;
